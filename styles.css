@@ -15,7 +15,7 @@
     background-color: rgba(222, 219, 219, 0.7);
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 50%);
+    transform: translate(-50%, -50%);
     border-radius: 15px;
     padding: 15px;
     font-size: 20px;
@@ -30,6 +30,10 @@
     background-color: rgb(241, 191, 225);
     border: none;
     color: rgb(255, 255, 255);
+}
+.botao:hover{
+    background-color: grey;
+    color: grey;
 }
 
 #resultado{
