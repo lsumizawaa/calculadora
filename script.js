@@ -16,8 +16,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
     // Função para calcular o resultado
     function calculateResult() {
     try {
-    // Substitui 'X' por '*' e avalia a expressão
-    const sanitizedExpression = expression.replace(/X/g, '*');
+    // Substitui 'x' por '*' e avalia a expressão
+    const sanitizedExpression = expression.replace(/x/g, '*');
     const result = eval(sanitizedExpression);
     updateDisplay(result);
     expression = result;
