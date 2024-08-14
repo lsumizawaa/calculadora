@@ -38,10 +38,10 @@
 
 #resultado{
     background-color: white;
-    width: 207px;
+    width: 214px;
     height: 30px;
     margin: 5px;
-    color: black;
+    color: rgb(133, 130, 130);
     text-align: right;
     padding: 5px;
 }
